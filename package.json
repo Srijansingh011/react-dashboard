@@ -2,7 +2,7 @@
   "name": "dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME",
+  "homepage": ".",
   "dependencies": {
     "@syncfusion/ej2-react-popups": "^33.2.7",
     "@testing-library/dom": "^10.4.1",
