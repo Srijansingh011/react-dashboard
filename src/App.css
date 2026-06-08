@@ -1,0 +1,19 @@
+.sidebar {
+  box-shadow: 4px 0 24px rgba(99, 102, 241, 0.08);
+}
+
+.nav-item, .navbar {
+  z-index: 10000;
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar { z-index: 10000000; }
+}
+
+/* Placeholder for contentEditable */
+[contenteditable]:empty:before {
+  content: attr(data-placeholder);
+  color: #94a3b8;
+  pointer-events: none;
+  font-style: italic;
+}
