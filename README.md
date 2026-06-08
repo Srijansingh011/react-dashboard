@@ -20,9 +20,7 @@
 
 ## 🌐 Live Demo
 
-> 🚀 **[Open Live Website →](https://YOUR_USERNAME.github.io/dashboard)**
-
-_Replace `YOUR_USERNAME` with your GitHub username after deploying._
+> 🚀 Deploy to GitHub Pages, Vercel, or Netlify — see the [Deployment](#-deployment) section below for step-by-step instructions.
 
 ---
 
@@ -80,10 +78,10 @@ _Replace `YOUR_USERNAME` with your GitHub username after deploying._
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/dashboard.git
+git clone https://github.com/Srijansingh011/Dashboard.git
 
 # 2. Navigate into the project
-cd dashboard
+cd Dashboard
 
 # 3. Install dependencies
 npm install
@@ -92,7 +90,7 @@ npm install
 npm start
 ```
 
-The app will open at **http://localhost:3000** 🎉
+The app will open at **[http://localhost:3000](http://localhost:3000)** 🎉
 
 ### Build for Production
 
@@ -244,7 +242,7 @@ theme: {
 npm install --save-dev gh-pages
 
 # 2. Add to package.json:
-#    "homepage": "https://YOUR_USERNAME.github.io/dashboard"
+#    "homepage": "https://<your-username>.github.io/Dashboard"
 #    "predeploy": "npm run build"
 #    "deploy": "gh-pages -d build"
 
